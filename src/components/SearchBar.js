@@ -20,6 +20,7 @@ class SearchBar extends React.Component {
               onChange={(e) => this.setState({term: e.target.value})} 
               id="text" 
               type={'text'}
+              placeholder='plants, dogs...'
             />
           </div>
         </form>
